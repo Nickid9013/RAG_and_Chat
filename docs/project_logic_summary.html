@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG_and_Chat 项目代码逻辑总结</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f0f14;
+      --card: #1a1a24;
+      --text: #e4e4e7;
+      --muted: #a1a1aa;
+      --accent: #7b2ff2;
+      --accent2: #f357a8;
+      --border: #27272a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Segoe UI", "PingFang SC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem; }
+    .container { max-width: 1000px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+    section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 1.25rem; }
+    section h2 { font-size: 1.05rem; color: var(--accent); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+    .mermaid { background: #1a1a24; border-radius: 8px; padding: 1rem; margin: 0.75rem 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { padding: 0.4rem 0.6rem; text-align: left; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 600; }
+    code { background: var(--border); padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>RAG_and_Chat 项目代码逻辑总结</h1>
+    <p class="subtitle">各模块逻辑与数据流 · Mermaid 图可在本页直接渲染</p>
+
+    <section>
+      <h2>一、整体架构（数据准备 + 问答两条主流程）</h2>
+      <div class="mermaid">
+flowchart TB
+    subgraph 数据准备流程
+        A[PDF 报告] --> B[pdf_mineru / PDFParser]
+        B --> C[Markdown / 解析 JSON]
+        C --> D[TextSplitter 分块]
+        D --> E[chunked_reports/*.json]
+        E --> F[VectorDBIngestor]
+        F --> H[(vector_dbs/*.faiss)]
+    end
+    subgraph 问答流程
+        J[用户问题] --> K[QuestionsProcessor]
+        K --> L[公司名抽取]
+        L --> M[VectorRetriever / RerankedRetriever]
+        M --> N[检索 top_n chunks]
+        N --> O[拼 RAG 上下文]
+        O --> P[APIProcessor.get_answer_from_rag_context]
+        P --> Q[LLM 结构化输出]
+        Q --> R[答案 + 引用]
+    end
+    H --> M
+      </div>
+    </section>
+
+    <section>
+      <h2>二、数据准备：有页数 vs 无页数分块</h2>
+      <div class="mermaid">
+flowchart LR
+    subgraph 当前使用_无页数
+        M1[03_reports_markdown/*.md] --> M2[split_markdown_reports]
+        M2 --> M3[split_markdown_file 按行切]
+        M3 --> M4["chunk: lines, text"]
+        M4 --> M5[chunked_reports]
+    end
+    subgraph 可选_有页数
+        J1["JSON content.pages"] --> J2[split_all_reports]
+        J2 --> J3[_split_report + _split_page]
+        J3 --> J4["chunk: page, text"]
+        J4 --> J5[chunked_reports 含 pages]
+    end
+    M5 --> VectorDB
+    J5 --> VectorDB[向量化 / BM25]
+      </div>
+    </section>
+
+    <section>
+      <h2>三、Pipeline 入口与步骤</h2>
+      <div class="mermaid">
+flowchart TB
+    main[main.py CLI] --> parse[parse_pdfs]
+    main --> process_reports[process_reports]
+    main --> process_questions[process_questions]
+    parse --> PDF[PDFParser / pdf_mineru]
+    process_reports --> chunk[chunk_reports]
+    chunk --> TextSplitter[TextSplitter.split_markdown_reports]
+    chunk --> create_vector[create_vector_dbs]
+    create_vector --> VectorDBIngestor[VectorDBIngestor.process_reports]
+    process_questions --> QP[QuestionsProcessor]
+    answer_single[answer_single_question] --> QP
+      </div>
+    </section>
+
+    <section>
+      <h2>四、单问推理链路（answer_single_question）</h2>
+      <div class="mermaid">
+sequenceDiagram
+    participant App as 调用方
+    participant Pipeline as Pipeline
+    participant QP as QuestionsProcessor
+    participant Retriever as VectorRetriever
+    participant API as APIProcessor
+    participant LLM as DashScope/OpenAI
+    App->>Pipeline: answer_single_question(question, kind)
+    Pipeline->>QP: process_single_question
+    QP->>QP: 公司名抽取
+    QP->>QP: get_answer_for_company
+    QP->>Retriever: retrieve_by_company_name
+    Retriever-->>QP: retrieval_results
+    QP->>QP: _format_retrieval_results → rag_context
+    QP->>API: get_answer_from_rag_context
+    API->>API: _build_rag_context_prompts
+    API->>LLM: send_message 结构化输出
+    LLM-->>API: answer_dict
+    API-->>QP: answer_dict
+    QP->>QP: 校验页码与引用
+    QP-->>Pipeline: answer_dict
+    Pipeline-->>App: answer_dict
+      </div>
+    </section>
+
+    <section>
+      <h2>五、检索与 LLM 模块关系</h2>
+      <div class="mermaid">
+flowchart TB
+    subgraph 检索
+        VR[VectorRetriever] --> load["_load_dbs: json + faiss"]
+        VR --> emb["_get_embedding"]
+        VR --> ret["retrieve_by_company_name"]
+        HR[HybridRetriever] --> VR
+        HR --> rerank[LLM Reranker]
+    end
+    subgraph 问答 API
+        API[APIProcessor] --> get_answer[get_answer_from_rag_context]
+        get_answer --> build["_build_rag_context_prompts"]
+        build --> schema[AnswerSchema]
+        get_answer --> send["send_message 结构化"]
+    end
+    subgraph 提示
+        prompts[prompts.py] --> string[StringPrompt]
+        prompts --> number[NumberPrompt]
+        prompts --> boolean[BooleanPrompt]
+    end
+      </div>
+    </section>
+
+    <section>
+      <h2>六、核心模块职责</h2>
+      <table>
+        <thead>
+          <tr><th>模块</th><th>文件</th><th>职责</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Pipeline</td><td>pipeline.py</td><td>入口与流程编排：路径、PDF→MD、分块、建库、批量/单问</td></tr>
+          <tr><td>PDF 解析</td><td>pdf_parsing.py, pdf_mineru.py</td><td>PDF→Docling JSON 或 mineru→full.md</td></tr>
+          <tr><td>分块</td><td>text_splitter.py</td><td>按行切 MD（lines+text）或按页+token 切（page+text）</td></tr>
+          <tr><td>入库</td><td>ingestion.py</td><td>VectorDBIngestor → faiss</td></tr>
+          <tr><td>检索</td><td>retrieval.py</td><td>VectorRetriever / HybridRetriever，按公司+query 返回 page+text</td></tr>
+          <tr><td>问题处理</td><td>questions_processing.py</td><td>公司名抽取、单/多公司、检索、拼 context、调 API、引用</td></tr>
+          <tr><td>LLM 调用</td><td>api_requests.py</td><td>APIProcessor，get_answer_from_rag_context，多 provider</td></tr>
+          <tr><td>提示与 Schema</td><td>prompts.py</td><td>AnswerWithRAGContext*Prompt，Pydantic AnswerSchema</td></tr>
+          <tr><td>表格 / 重排</td><td>tables_serialization.py, reranking.py</td><td>表格序列化；LLM/Jina 重排</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>七、单问数据流（问题→展示）</h2>
+      <div class="mermaid">
+flowchart LR
+    Q[用户问题] --> C[公司名]
+    C --> R[检索]
+    R --> T[rag_context]
+    T --> L[LLM]
+    L --> D[answer_dict]
+    D --> V[校验页码/引用]
+    V --> S[Streamlit 解析]
+    S --> UI[分步推理 / 摘要 / 相关页 / 最终答案]
+      </div>
+    </section>
+  </div>
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'dark', themeVariables: { primaryColor: '#7b2ff2', secondaryColor: '#f357a8', tertiaryColor: '#1a1a24' } });
+  </script>
+</body>
+</html>

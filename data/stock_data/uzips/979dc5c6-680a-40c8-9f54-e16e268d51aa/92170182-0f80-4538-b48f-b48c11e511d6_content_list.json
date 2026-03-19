@@ -1,0 +1,949 @@
+[
+    {
+        "type": "text",
+        "text": "中芯国际（00981.HK）工业与汽车触底反弹，良率影响短期营收",
+        "text_level": 1,
+        "bbox": [
+            53,
+            83,
+            606,
+            147
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "核心观点",
+        "text_level": 1,
+        "bbox": [
+            55,
+            180,
+            151,
+            202
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1Q25 营收创季度新高，预计2Q25营收环比下降。公司1Q25实现销售收入22.47亿美元（YoY +28%，QoQ +1.8%），低于指引(QoQ 6%-8%)下限，续创季度新高，晶圆收入占总收入的95.2%；毛利率为22.5%(YoY+8.8pct，QoQ-0.1pct)，超指引(19%-21%)上限；归母净利润为1.09亿美元(YoY +51%,QoQ +0.9%)；折旧摊销金额为8.66亿美元(YoY+16.1%，QoQ+1.9%)。公司预计2Q25营收环比下降4%-6%，毛利率为18%-20%。1Q25收入低于指引及2Q25收入预计下降的原因：一方面由于公司厂务在年度维修时出现突发情况，影响了产品的工艺精度和成品率问题，另一方面公司一季度新进设备较多，在设备验证过程中，发现设备性能和工艺表现需要改进，导致产品良率波动。",
+        "bbox": [
+            53,
+            206,
+            608,
+            374
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一季度产能利用率环比提高4.1pct，良率下降导致ASP下降。公司1Q25付运折合8英寸晶圆229.2万片(YoY+27.7%，QoQ+15.1%)，产能利用率上升至89.6%(YoY+8.8pct,QoQ+4.1pct)。在晶圆收入中12英寸晶圆贡献78.1%,8英寸晶圆贡献21.9%；由于良率下降，公司折合8英寸晶圆平均晶圆价格下降至933美元(YoY+3%,QoQ-9%)。公司1Q25 资本开支为14.16亿美元(YoY-36.7%,QoQ-14.7%)，折合8寸晶圆月产能较4Q24末增长2.56万片至97.33万片。",
+        "bbox": [
+            53,
+            379,
+            606,
+            495
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一季度工业与汽车收入同环比增速均最高，晶圆代工需求回流本土。一季度晶圆营收按应用分类，除互联与可穿戴同比减少17.4%外，工业与汽车、消费电子、电脑与平板、智能手机均同比增长，增速分别为75.2%、72.7%、29.9%、1.9%；除电脑与平板环比减少5.1%外，工业与汽车、消费电子、互联与可穿戴、智能手机均环比增长，增速分别为22.7%、5.8%、4.8%、4.8%。公司看到各行业，包括工业与汽车领域触底反弹的积极信号，产业链在地化转换继续走强，更多晶圆代工需求回流本土。按地区来看，一季度收入中来自中国的占比为84.3%，来自美国区的占比为12.6%，来自欧亚区的占比为3.1%。",
+        "bbox": [
+            53,
+            500,
+            606,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "投资建议：看好国内晶圆代工龙头中长期发展前景，维持“优于大市”评级。",
+        "bbox": [
+            55,
+            640,
+            605,
+            657
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "基于公司1Q25业绩及2Q25指引，我们预计公司2025-2027年归母净利润为5.78/8.11/9.47亿美元（2025-2026年前值为6.55/9.50亿美元），2025年5月9日股价对应2025年2.1倍PB，维持“优于大市”评级。",
+        "bbox": [
+            55,
+            662,
+            605,
+            713
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "风险提示：下游需求放缓；扩产不及预期；国际关系紧张的风险。",
+        "bbox": [
+            55,
+            719,
+            556,
+            736
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公司研究·海外公司财报点评",
+        "text_level": 1,
+        "bbox": [
+            636,
+            184,
+            870,
+            200
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "电子·半导体",
+        "text_level": 1,
+        "bbox": [
+            636,
+            206,
+            744,
+            222
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "证券分析师：胡剑  \n021-60893306  \nhujian1@guosen.com.cn  \nS0980521080001  \n证券分析师：胡慧  \n021-60871321  \nhuhui2@guosen.com.cn  \nS0980521080002  \n证券分析师：叶子  \n0755-81982153  \nyezi3@guosen.com.cn  \nS0980522100003  \n证券分析师：张大为  \n021-61761072  \nzhangdawei1@guosen.com.cn  \nS0980524100002",
+        "bbox": [
+            636,
+            228,
+            773,
+            274
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            788,
+            228,
+            919,
+            274
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            636,
+            279,
+            759,
+            324
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            786,
+            279,
+            929,
+            325
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/92a73e52e5d7c7110faf67ec450f32f8a92cb5c9b1525b2cb9e2c818d3c6f78c.jpg",
+        "table_caption": [
+            "基础数据"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>投资评级 合理估值</td><td>优于大市 (维持)</td></tr><tr><td>收盘价</td><td>43.00港元</td></tr><tr><td>总市值/流通市值</td><td>343388/257889百万港元</td></tr><tr><td>52周最高价/最低价</td><td>59.70/15.24港元</td></tr><tr><td>近3个月日均成交额</td><td>6991.18百万港元</td></tr></table>",
+        "bbox": [
+            635,
+            347,
+            944,
+            410
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/a20e1b53f1c512d81af32c9f4d66f38dbfaac806e58a5c12643cafa25fd46949.jpg",
+        "image_caption": [
+            "市场走势",
+            "资料来源：Wind、国信证券经济研究所整理"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            642,
+            448,
+            941,
+            568
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "相关研究报告",
+        "text_level": 1,
+        "bbox": [
+            636,
+            590,
+            729,
+            602
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "《中芯国际（00981.HK）-一季度淡季不淡，预计营收继续环增》-2025-02-16  \n《中芯国际（00981.HK）-三季度营收创新高，12英寸占比提高》-2024-11-09  \n《中芯国际（00981.HK）-二季度营收和毛利率超指引上限，消  \n费电子增长最快》——2024-08-09  \n《中芯国际（00981.HK）-一季度营收、毛利率超指引》—  \n2024-05-13  \n《中芯国际（00981.HK）-出货量连续第三个季度回升，高资本  \n投入将持续》—2024-02-18",
+        "bbox": [
+            635,
+            607,
+            942,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/9f06b1093600dc01aeec10cc53fc957a49d121e2b338e37ff08caf6ad6e943b8.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "资料来源：Wind、国信证券经济研究所预测",
+            "注：摊薄每股收益按年末总股本计算"
+        ],
+        "table_body": "<table><tr><td>盈利预测和财务指标</td><td>2023</td><td>2024</td><td>2025E</td><td>2026E</td><td>2027E</td></tr><tr><td>营业收入 (百万美元)</td><td>6,322</td><td>8,030</td><td>9,333</td><td>10,752</td><td>11, 721</td></tr><tr><td>(+/-%)</td><td>-13.1%</td><td>27.0%</td><td>16.2%</td><td>15.2%</td><td>9.0%</td></tr><tr><td>净利润 (百万美元)</td><td>903</td><td>493</td><td>578</td><td>811</td><td>947</td></tr><tr><td>(+/-%)</td><td>-50.4%</td><td>-45.4%</td><td>17.3%</td><td>40.3%</td><td>16.9%</td></tr><tr><td>每股收益 (美元)</td><td>0.11</td><td>0.06</td><td>0.07</td><td>0.10</td><td>0.12</td></tr><tr><td>EBITMargin</td><td>15.5%</td><td>7.0%</td><td>7.8%</td><td>10.0%</td><td>10.9%</td></tr><tr><td>净资产收益率 (ROE)</td><td>4.5%</td><td>2.4%</td><td>2.7%</td><td>3.7%</td><td>4.1%</td></tr><tr><td>市盈率 (PE)</td><td>48.7</td><td>89.6</td><td>76.4</td><td>54.5</td><td>46.6</td></tr><tr><td>EV/EBITDA</td><td>17.5</td><td>16.8</td><td>14.0</td><td>11.6</td><td>10. 1</td></tr><tr><td>市净率（PB)</td><td>2.2</td><td>2.1</td><td>2.1</td><td>2.0</td><td>1.9</td></tr></table>",
+        "bbox": [
+            53,
+            746,
+            606,
+            882
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "1 国信证券 GUOSEN SECURITIES ",
+        "bbox": [
+            58,
+            17,
+            230,
+            49
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "请务必阅读正文之后的免责声明及其项下所有内容",
+        "bbox": [
+            57,
+            936,
+            352,
+            948
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "证券研究报告丨2025年05月11日",
+        "bbox": [
+            680,
+            27,
+            937,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "discarded",
+        "text": "优于大市 ",
+        "bbox": [
+            895,
+            87,
+            983,
+            108
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/100670f1fe5b4311b3973f59dc960624d4a2f76c7bff3bd6abecdc0907291542.jpg",
+        "image_caption": [
+            "图1：公司营业收入及增速"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            94,
+            155,
+            482,
+            315
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/223792d87d27c70ced84297eb9a7449d482f97a14c5f0d35ec8cf9b1eca6d567.jpg",
+        "image_caption": [
+            "图2：公司归母净利润及增速"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            507,
+            155,
+            902,
+            319
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理资料来源：公司公告、Wind、国信证券经济研究所整理",
+        "bbox": [
+            92,
+            330,
+            420,
+            344
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            505,
+            330,
+            831,
+            344
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/83fa423152418f361ac2f3bf85c0e5227d86dbb5612309612d2f44b0741274b4.jpg",
+        "image_caption": [
+            "图3：公司单季收入及增速"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            95,
+            420,
+            478,
+            583
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/846a54a7fbb71ce60ca4076e9e35a473bfce4ade50ee389e2adbd13594edff5a.jpg",
+        "image_caption": [
+            "图4：公司单季归母净利润及增速"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            514,
+            420,
+            885,
+            579
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            595,
+            418,
+            608
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            504,
+            595,
+            831,
+            609
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/5fc6b3b5583cc222fc6f6659ef75fd4c868be534abb0a090194380093fd65180.jpg",
+        "image_caption": [
+            "图5：公司1Q25晶圆收入应用构成"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            169,
+            682,
+            401,
+            841
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/04e9cc57340818d1003cdf96a812aff271be5d8980ba9a3f0096a7b9e40ab993.jpg",
+        "image_caption": [
+            "图6：公司1Q25 晶圆收入尺寸构成"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            596,
+            682,
+            831,
+            843
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            94,
+            862,
+            418,
+            875
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            505,
+            862,
+            831,
+            875
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "国信证券GUOSEN SECURITIES",
+        "bbox": [
+            95,
+            49,
+            268,
+            80
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "证券研究报告",
+        "bbox": [
+            796,
+            58,
+            905,
+            74
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "请务必阅读正文之后的免责声明及其项下所有内容",
+        "bbox": [
+            92,
+            927,
+            388,
+            940
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "discarded",
+        "text": "2 ",
+        "bbox": [
+            894,
+            929,
+            905,
+            940
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/4a8b5c183ba58cd750aee0ce56f9d7f8e35ffc1caf3a84cc9a036050b85a1f66.jpg",
+        "image_caption": [
+            "图7：公司季度毛利率",
+            "资料来源：公司公告、Wind、国信证券经济研究所整理"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            99,
+            143,
+            477,
+            303
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            319,
+            418,
+            332
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/141a066f0c859aba8073300d5964931e4aa19da10d6fd7221b0e992ca9727550.jpg",
+        "image_caption": [
+            "图8：公司季度ASP (折合每片八寸晶圆)"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            510,
+            141,
+            900,
+            307
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/6d89e8addb4260280f415c941af93bb65f842bfea8ceef1409bf14e6ada3a403.jpg",
+        "image_caption": [
+            "图9：公司季度产能利用率"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            97,
+            410,
+            477,
+            563
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            94,
+            577,
+            418,
+            592
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/fcabed88a1393f8b341c85eb8800f491ecf8ca7948554eb0aa2f7bbed3649e6e.jpg",
+        "image_caption": [
+            "图10：公司季度晶圆付运量"
+        ],
+        "image_footnote": [],
+        "bbox": [
+            507,
+            410,
+            899,
+            567
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            504,
+            579,
+            831,
+            592
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "国信证券GUOSEN SECURITIES",
+        "bbox": [
+            95,
+            49,
+            268,
+            80
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "证券研究报告",
+        "bbox": [
+            796,
+            58,
+            905,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "请务必阅读正文之后的免责声明及其项下所有内容",
+        "bbox": [
+            92,
+            928,
+            388,
+            939
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "discarded",
+        "text": "3 ",
+        "bbox": [
+            895,
+            931,
+            904,
+            939
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "财务预测与估值 ",
+        "text_level": 1,
+        "bbox": [
+            94,
+            101,
+            314,
+            127
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/e0cd0d4a42a11a72cf212378708aeef935fbcd25ac82028ce852f0d3aa269014.jpg",
+        "table_caption": [
+            "资产负债表(百万美"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>元)</td><td>2023</td><td>2024</td><td>2025E</td><td>2026E</td></tr><tr><td>现金及现金等价物</td><td>6215</td><td>6364</td><td>6364</td><td>5800</td></tr><tr><td>应收款项</td><td>717</td><td>564</td><td>656</td><td>756</td></tr><tr><td>存货净额</td><td>2736</td><td>2958</td><td>3275</td><td>3645</td></tr><tr><td>其他流动资产</td><td>3967</td><td>4897</td><td>4954</td><td>5016</td></tr><tr><td>流动资产合计</td><td>13635</td><td>14784</td><td>15249</td><td>15217</td></tr><tr><td>固定资产</td><td>23945</td><td>28092</td><td>31605</td><td>34479</td></tr><tr><td>无形资产及其他</td><td>91</td><td>50</td><td>46</td><td>41</td></tr><tr><td>其他长期资产</td><td>8071</td><td>4983</td><td>4000</td><td>4304</td></tr><tr><td>长期股权投资</td><td>2045</td><td>1253</td><td>1253</td><td>1253</td></tr><tr><td>资产总计</td><td>47787</td><td>49161</td><td>52153</td><td>55293</td></tr><tr><td>短期借款及交易性金</td><td></td><td></td><td></td><td></td></tr><tr><td>融负债</td><td>1216</td><td>3532</td><td>6133</td><td>7359</td></tr><tr><td>应付款项</td><td>711</td><td>874</td><td>943</td><td>1050</td></tr><tr><td>其他流动负债</td><td>5674</td><td>4354</td><td>4572</td><td>5021</td></tr><tr><td>流动负债合计</td><td>7602</td><td>8760</td><td>11648</td><td>13430</td></tr><tr><td>长期借款及应付债券</td><td>8934</td><td>8038</td><td>7138</td><td>7138</td></tr><tr><td>其他长期负债</td><td>406</td><td>494</td><td>658</td><td>848</td></tr><tr><td>长期负债合计</td><td>9340</td><td>8532</td><td>7796</td><td>7986</td></tr><tr><td>负债合计</td><td>16942</td><td>17292</td><td>19444</td><td>21416</td></tr><tr><td>少数股东权益</td><td>10730</td><td>11256</td><td>11511</td><td>11870</td></tr><tr><td>股东权益</td><td>20116</td><td>20614</td><td>21197</td><td>22007</td></tr><tr><td>负债和股东权益总计</td><td>47787</td><td>49161</td><td>52153</td><td>55293</td></tr></table>",
+        "bbox": [
+            92,
+            151,
+            438,
+            517
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/0d010a0ba5104ea1df1bd5107195235b0d281714913d5a402355f2b3095d6925.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "资料来源：Wind、国信证券经济研究所预测"
+        ],
+        "table_body": "<table><tr><td>关键财务与估值指标</td><td>2023</td><td>2024</td><td>2025E</td><td>2026E</td></tr><tr><td>每股收益</td><td>0.11</td><td>0.06</td><td>0.07</td><td>0.10</td></tr><tr><td>每股红利</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr><tr><td>每股净资产</td><td>2.53</td><td>2.58</td><td>2.66</td><td>2. 76</td></tr><tr><td>ROIC</td><td>2%</td><td>2%</td><td>3%</td><td>4%</td></tr><tr><td>ROE</td><td>4%</td><td>2%</td><td>3%</td><td>4%</td></tr><tr><td>毛利率</td><td>19%</td><td>18%</td><td>20%</td><td>21%</td></tr><tr><td>EBIT Margin</td><td>15%</td><td>7%</td><td>8%</td><td>10%</td></tr><tr><td>EBITDAMargin</td><td>58%</td><td>47%</td><td>49%</td><td>51%</td></tr><tr><td>收入增长</td><td>-13%</td><td>27%</td><td>16%</td><td>15%</td></tr><tr><td>净利润增长率</td><td>-50%</td><td>-45%</td><td>17%</td><td>40%</td></tr><tr><td>资产负债率</td><td>58%</td><td>58%</td><td>59%</td><td>60%</td></tr><tr><td>息率</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td></tr><tr><td>P/E</td><td>48.73</td><td>89.58</td><td>76.43</td><td>54.48</td></tr><tr><td>P/B</td><td>2.19</td><td>2. 14</td><td>2.08</td><td>2.01</td></tr><tr><td>EV/EBITDA</td><td>17. 44</td><td>16.80</td><td>13.98</td><td>11.56</td></tr></table>",
+        "bbox": [
+            92,
+            536,
+            442,
+            791
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/84147d9190d2302077657ad383a224f663efe88e9ea1abd6b80e38b0589ec3d0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>2027E利润表(百万美元）</td><td>2023</td><td>2024</td><td>2025E</td><td>2026E</td><td>2027E</td></tr><tr><td>5500 营业收入</td><td>6322</td><td>8030</td><td>9333</td><td>10752</td><td>11721</td></tr><tr><td>824 营业成本</td><td>5104</td><td>6582</td><td>7444</td><td>8463</td><td>9109</td></tr><tr><td>3690 营业税金及附加</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>5059销售费用</td><td>36</td><td>40</td><td>45</td><td>49</td><td>50</td></tr><tr><td>15073管理费用</td><td>482</td><td>580</td><td>607</td><td>613</td><td>633</td></tr><tr><td>36456研发费用</td><td>707</td><td>765</td><td>812</td><td>860</td><td>914</td></tr><tr><td>36财务费用</td><td>209</td><td>297</td><td>201</td><td>228</td><td>243</td></tr><tr><td>4498投资收益</td><td>29</td><td>29</td><td>29</td><td>29</td><td>29</td></tr><tr><td>资产减值及公允价值</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1253变动</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>57316其他</td><td>546</td><td>680</td><td>622</td><td>720</td><td>734</td></tr><tr><td>7719 营业利润</td><td>358</td><td>474</td><td>876</td><td>1286</td><td>1535</td></tr><tr><td>1063 营业外净收支</td><td>402</td><td>411</td><td>658</td><td>658</td><td>658</td></tr><tr><td>5097利润总额</td><td>1187</td><td>860</td><td>926</td><td>1299</td><td>1518</td></tr><tr><td>13879所得税费用</td><td>63</td><td>130</td><td>93</td><td>130</td><td>152</td></tr><tr><td>7138少数股东损益</td><td>222</td><td>237</td><td>256</td><td>359</td><td>419</td></tr><tr><td>1055归属于母公司净利润</td><td>903</td><td>493</td><td>578</td><td>811</td><td>947</td></tr></table>",
+        "bbox": [
+            455,
+            151,
+            885,
+            434
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/396f9746afcff226b196136eb6411058860e3556ba212048e593bb7f4285d842.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>8193现金流量表（百万元）</td><td>2023</td><td>2024</td><td>2025E</td><td>2026E</td><td>2027E</td></tr><tr><td>2072净利润</td><td>1125</td><td>730</td><td>834</td><td>1169</td><td>1367</td></tr><tr><td>2289 资产减值准备</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2955折旧摊销</td><td>2667</td><td>3223</td><td>3821</td><td>4431</td><td>5027</td></tr><tr><td>7316 公允价值变动损失</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>财务费用</td><td>209</td><td>297</td><td>201</td><td>228</td><td>243</td></tr><tr><td>027E营运资本变动</td><td>(1451)</td><td>2358</td><td>969</td><td>(90)</td><td>(54)</td></tr><tr><td>0.12其它</td><td>808</td><td>(3432)</td><td>(201)</td><td>(228)</td><td>(243)</td></tr><tr><td>0.00经营活动现金流</td><td>3358</td><td>3176</td><td>5624</td><td>5510</td><td>6339</td></tr><tr><td>2.88资本开支</td><td>(7633)</td><td>(7670)</td><td>(7330)</td><td>(7300)</td><td>(7000)</td></tr><tr><td>4%其它投资现金流</td><td>1426</td><td>3151</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4%投资活动现金流</td><td>(6208)</td><td>(4518)</td><td>(7330)</td><td>(7300)</td><td>(7000)</td></tr><tr><td>22%权益性融资</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td></tr><tr><td>11%负债净变化</td><td>1617</td><td>(896)</td><td>(900)</td><td>0</td><td>0</td></tr><tr><td>54% 支付股利、利息</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>9%其它融资现金流</td><td>849</td><td>2504</td><td>2601</td><td>1226</td><td>361</td></tr><tr><td>17%融资活动现金流</td><td>2466</td><td>1608</td><td>1706</td><td>1226</td><td>361</td></tr><tr><td>60%现金净变动</td><td>(718)</td><td>149</td><td>(0)</td><td>(564)</td><td>(300)</td></tr><tr><td>0% 货币资金的期初余额</td><td>6933</td><td>6215</td><td>6364</td><td>6364</td><td>5800</td></tr><tr><td>6.62货币资金的期末余额</td><td>6215</td><td>6364</td><td>6364</td><td>5800</td><td>5500</td></tr><tr><td>1.92企业自由现金流</td><td>0</td><td>(1612)</td><td>(1887)</td><td>(1996)</td><td>(879)</td></tr><tr><td>0.09权益自由现金流</td><td>0</td><td>208</td><td>(166)</td><td>(784)</td><td>(559)</td></tr></table>",
+        "bbox": [
+            462,
+            438,
+            884,
+            791
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "1 国信证券 GUOSEN SECURITIES ",
+        "bbox": [
+            95,
+            49,
+            270,
+            80
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "证券研究报告",
+        "bbox": [
+            796,
+            58,
+            905,
+            74
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "请务必阅读正文之后的免责声明及其项下所有内容",
+        "bbox": [
+            92,
+            927,
+            388,
+            940
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "discarded",
+        "text": "",
+        "bbox": [
+            895,
+            931,
+            904,
+            939
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "免责声明",
+        "text_level": 1,
+        "bbox": [
+            94,
+            110,
+            221,
+            135
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "分析师声明",
+        "text_level": 1,
+        "bbox": [
+            94,
+            149,
+            203,
+            168
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "作者保证报告所采用的数据均来自合规渠道；分析逻辑基于作者的职业理解，通过合理判断并得出结论，力求独立、客观、公正，结论不受任何第三方的授意或影响；作者在过去、现在或未来未就其研究报告所提供的具体建议或所表述的意见直接或间接收取任何报酬，特此声明。",
+        "bbox": [
+            92,
+            180,
+            905,
+            229
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/fd88310423a9d61a70d3826c2f1dd9a47659827e584e404963024bd351bd6714.jpg",
+        "table_caption": [
+            "国信证券投资评级"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>投资评级标准</td><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>级别</td><td rowspan=1 colspan=1>说明</td></tr><tr><td rowspan=7 colspan=1>报告中投资建议所涉及的评级（如有）分为股票评级和行业评级（另有说明的除外）。评级标准为报告发布日后6到12个月内的相对市场表现，也即报告发布日后的6到12个月内公司股价(或行业指数)相对同期相关证券市场代表性指数的涨跌幅作为基准。A股市场以沪深 300 指数（000300.SH）作为基准；新三板市场以三板成指（899001.CSI）为基准；香港市场以恒生指数(HSI.HI)作为基准；美国市场以标普 500 指数(SPX.GI)或纳斯达克指数（IXIC.GI）为基准。</td><td rowspan=4 colspan=1>股票投资评级</td><td rowspan=1 colspan=1>优于大市</td><td rowspan=1 colspan=1>股价表现优于市场代表性指数10%以上</td></tr><tr><td rowspan=1 colspan=1>中性</td><td rowspan=1 colspan=1>股价表现介于市场代表性指数±10%之间</td></tr><tr><td rowspan=1 colspan=1>弱于大市</td><td rowspan=1 colspan=1>股价表现弱于市场代表性指数10%以上</td></tr><tr><td rowspan=1 colspan=1>无评级</td><td rowspan=1 colspan=1>股价与市场代表性指数相比无明确观点</td></tr><tr><td rowspan=3 colspan=1>行业投资评级</td><td rowspan=1 colspan=1>优于大市</td><td rowspan=1 colspan=1>行业指数表现优于市场代表性指数10%以上</td></tr><tr><td rowspan=1 colspan=1>中性</td><td rowspan=1 colspan=1>行业指数表现介于市场代表性指数±10%之间</td></tr><tr><td rowspan=1 colspan=1>弱于大市</td><td rowspan=1 colspan=1>行业指数表现弱于市场代表性指数10%以上</td></tr></table>",
+        "bbox": [
+            90,
+            265,
+            907,
+            418
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "重要声明",
+        "text_level": 1,
+        "bbox": [
+            92,
+            431,
+            183,
+            448
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本报告由国信证券股份有限公司（已具备中国证监会许可的证券投资咨询业务资格）制作；报告版权归国信证券股份有限公司（以下简称“我公司”）所有。本报告仅供我公司客户使用，本公司不会因接收人收到本报告而视其为客户。未经书面许可，任何机构和个人不得以任何形式使用、复制或传播。任何有关本报告的摘要或节选都不代表本报告正式完整的观点，一切须以我公司向客户发布的本报告完整版本为准。",
+        "bbox": [
+            92,
+            454,
+            907,
+            533
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本报告基于已公开的资料或信息撰写，但我公司不保证该资料及信息的完整性、准确性。本报告所载的信息、资料、建议及推测仅反映我公司于本报告公开发布当日的判断，在不同时期，我公司可能撰写并发布与本报告所载资料、建议及推测不一致的报告。我公司不保证本报告所含信息及资料处于最新状态；我公司可能随时补充、更新和修订有关信息及资料，投资者应当自行关注相关更新和修订内容。我公司或关联机构可能会持有本报告中所提到的公司所发行的证券并进行交易，还可能为这些公司提供或争取提供投资银行、财务顾问或金融产品等相关服务。本公司的资产管理部门、自营部门以及其他投资业务部门可能独立做出与本报告中意见或建议不一致的投资决策。",
+        "bbox": [
+            90,
+            536,
+            907,
+            646
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本报告仅供参考之用，不构成出售或购买证券或其他投资标的要约或邀请。在任何情况下，本报告中的信息和意见均不构成对任何个人的投资建议。任何形式的分享证券投资收益或者分担证券投资损失的书面或口头承诺均为无效。投资者应结合自己的投资目标和财务状况自行判断是否采用本报告所载内容和信息并自行承担风险，我公司及雇员对投资者使用本报告及其内容而造成的一切后果不承担任何法律责任。",
+        "bbox": [
+            92,
+            650,
+            905,
+            713
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "证券投资咨询业务的说明",
+        "text_level": 1,
+        "bbox": [
+            94,
+            725,
+            331,
+            745
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本公司具备中国证监会核准的证券投资咨询业务资格。证券投资咨询，是指从事证券投资咨询业务的机构及其投资咨询人员以下列形式为证券投资人或者客户提供证券投资分析、预测或者建议等直接或者间接有偿咨询服务的活动：接受投资人或者客户委托，提供证券投资咨询服务；举办有关证券投资咨询的讲座、报告会、分析会等；在报刊上发表证券投资咨询的文章、评论、报告，以及通过电台、电视台等公众传播媒体提供证券投资咨询服务；通过电话、传真、电脑网络等电信设备系统，提供证券投资咨询服务；中国证监会认定的其他形式。",
+        "bbox": [
+            92,
+            749,
+            907,
+            844
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "发布证券研究报告是证券投资咨询业务的一种基本形式，指证券公司、证券投资咨询机构对证券及证券相关产品的价值、市场走势或者相关影响因素进行分析，形成证券估值、投资评级等投资分析意见，制作证券研究报告，并向客户发布的行为。",
+        "bbox": [
+            92,
+            847,
+            907,
+            895
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "1 国信证券 GUOSEN SECURITIES ",
+        "bbox": [
+            95,
+            49,
+            272,
+            80
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "discarded",
+        "text": "证券研究报告",
+        "bbox": [
+            796,
+            57,
+            905,
+            74
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "国信证券经济研究所",
+        "text_level": 1,
+        "bbox": [
+            94,
+            114,
+            374,
+            141
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "深圳深圳市福田区福华一路125号国信金融大厦36层邮编：518046总机：0755-82130833",
+        "bbox": [
+            92,
+            172,
+            514,
+            231
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "上海  \n上海浦东民生路1199弄证大五道口广场1号楼12层  \n邮编：200135  \n北京  \n北京西城区金融大街兴盛街6号国信证券9层  \n邮编：100032",
+        "bbox": [
+            92,
+            254,
+            544,
+            313
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            92,
+            337,
+            485,
+            395
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "国信证券GUOSEN SECURITIES",
+        "bbox": [
+            95,
+            49,
+            270,
+            82
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "discarded",
+        "text": "证券研究报告",
+        "bbox": [
+            796,
+            57,
+            905,
+            74
+        ],
+        "page_idx": 5
+    }
+]
