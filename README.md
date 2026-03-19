@@ -10,6 +10,7 @@
 - **多公司比较**：自动拆解比较题，按公司分别检索与生成后汇总
 - **多轮对话**：支持短期上下文记忆（最近 8 轮）
 - **可追溯引用**：答案附带「文件名 + 行号」形式的相关来源
+- **闲聊问答**：可以自动判断问题是否使用知识库，让模型自己回答问题。
 
 技术栈：MinerU（PDF→Markdown）、LangChain 分块、FAISS 向量检索、多提供商 LLM（DashScope / OpenAI / Gemini / IBM）、Pydantic 结构化输出。
 
@@ -93,7 +94,7 @@ pip install streamlit
 streamlit run app_streamlit.py
 ```
 
-- 浏览器会自动打开 Streamlit 应用（默认 http://localhost:8501）。
+- 浏览器会自动打开 Streamlit 应用（默认 [http://localhost:8501）。](http://localhost:8501）。)
 - 使用 `data/stock_data` 与 `max_config`，支持多轮对话、查看推理与引用。
 - 数据路径在 `app_streamlit.py` 中通过 `root_path = Path("data/stock_data")` 配置。
 
